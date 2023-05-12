@@ -10,7 +10,7 @@ const props = defineProps<{
   param: MapTableParam[]
   config: MapTableConfig
 }>();
-
+console.log("master")
 const { param, config } = toRefs(props);
 
 watchPostEffect(() => {
