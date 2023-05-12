@@ -1,4 +1,4 @@
-import { defineComponent, type StyleValue} from "vue";
+import { defineComponent } from "vue";
 import type { StateData } from "../StateCard/type";
 export default defineComponent({
     name: "CardTable",
