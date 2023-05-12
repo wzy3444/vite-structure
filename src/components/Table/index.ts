@@ -4,7 +4,6 @@ import {
     ref,
     type PropType,
     toRefs,
-    onMounted,
     watch
   } from "vue";
 import { blue, red } from "picocolors";
