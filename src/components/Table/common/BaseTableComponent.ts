@@ -1,4 +1,3 @@
-import { init } from 'echarts';
 export interface TableParam {
     name:string;
     value:string;
